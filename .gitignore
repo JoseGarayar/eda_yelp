@@ -9,4 +9,7 @@ __pycache__/
 .ipynb_checkpoints
 
 # datasets
-datasets/
+data/
+
+# Environment variables
+.env_file

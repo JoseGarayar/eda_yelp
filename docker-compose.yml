@@ -6,8 +6,10 @@ services:
     image: yelp-project
     container_name: yelp
     volumes:
-      - ./datasets:/app/datasets
+      - ./data:/app/data
     env_file:
       - ./.env_file
     ports:
       - "8888:8888"
+    command:
+      - /start
